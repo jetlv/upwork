@@ -1,0 +1,36 @@
+Need PHP/Node.js Web Scraper Code
+
+See details in attached text. In your bid please describe how long it will take and tell me how you plan
+to avoid captcha show / endless redirects like it happens if call CURL.
+All bids without qualified explanations will be ignored.
+
+===============================================
+
+I need code in PHP/Node.js to login on upwork site and get jobs keeping logged in.
+No need parse data, just login and save html to file.
+Details:
+
+https://www.upwork.com/login
+Enter your login and password, select Remember me and click Login.
+
+Then go to
+https://www.upwork.com/jobs/?spellcheck=1&highlight=1&sortBy=s_ctime+desc&cn1%5B%5D=Web%2C+Mobile+%26+Software+Dev&cn2%5B%5D=Web+Development&cn2%5B%5D=Other+-+Software+Development&cn2%5B%5D=Desktop+Software+Development&cn2%5B%5D=Scripts+%26+Utilities&exp%5B%5D=2&exp%5B%5D=3&amount%5B%5D=Min&amount%5B%5D=1k
+
+It should show jobs list and keep logged in, so when visit any job details I see hire details in html.
+https://www.upwork.com/jobs/_~01e20a74e53bf47237/
+
+Proposals: 10 to 15
+Interviewing: 0
+Invites Sent: 0
+Unanswered Invites: 0
+
+Also there is api that returns bid amounts, it should work also.
+https://www.upwork.com/jobs/~01e20a74e53bf47237/applicants
+
+{"applicants":[],"invitedToInterview":0,"applicantsBidsStats":{"avgRateBid":{"currencyCode":"USD","amount":13.2865},"minRateBid":{"currencyCode":"USD","amount":8},"maxRateBid":{"currencyCode":"USD","amount":25},"avgInterviewedRateBid":{"currencyCode":"USD","amount":0}},"diagnosticInfo":{"failedServiceCalls":null}}
+
+I can provide login/password for those who has no paid upwork account.
+
+Best regards,
+Ilia,
+Modular Coding Inc.
